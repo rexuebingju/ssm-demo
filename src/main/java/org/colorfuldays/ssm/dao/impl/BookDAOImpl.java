@@ -6,8 +6,6 @@ import org.colorfuldays.ssm.dao.BookDAO;
 import org.colorfuldays.ssm.domain.BookDO;
 import org.springframework.stereotype.Repository;
 
-import java.util.List;
-
 /**
  * Created by IntelliJ IDEA.
  * User: huxing(xing.hu@360hqb.com)
@@ -26,12 +24,7 @@ public class BookDAOImpl implements BookDAO {
         bookDO.addAuthor("Dennis M.Ritchie");
         bookDO.setIsbn("978-7-111-12806-9");
         bookDO.setPublishDate(1380000212);
-        bookDO.setId(10);
 
         return bookDO;
-    }
-
-    public List<BookDO> getBooks(List<Integer> bookIds) {
-        return null;
     }
 }

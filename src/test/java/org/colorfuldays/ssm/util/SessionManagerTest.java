@@ -26,7 +26,6 @@ public class SessionManagerTest extends BaseTestngTest{
         dsession.setSessionId(112321);
         dsession.setAttribute("key", "attribute");
         dsession.setAttribute("group", "dba");
-        dsession.setAttribute("name", "mysql");
     }
 
     @Test
